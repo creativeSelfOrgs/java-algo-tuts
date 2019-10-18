@@ -1,0 +1,9 @@
+Adding a water-mark over an image 
+
+
+* Step by step:
+
+    Read the source image file into a BufferedImage object using the ImageIO.read() method.
+    Obtain graphics context of the BufferedImage object.
+    Using the Graphics2D object to pain the water-mark which can be a String, an image or whatever can be drawn with the Graphics2D’s API. But basically, the watermark is usually translucent so an alpha channel is needed.
+    Write the output image using the ImageIO.write() method.

@@ -1,0 +1,7 @@
+x	IDnumber
+y	IDnumber
+z	IDnumber
+x IDnumber
+y IDnumber
+> GTnumber
+; SEMInumber
